@@ -1,0 +1,18 @@
+CARPETA DE MUSICA
+=================
+
+La pagina ya incluye la melodia clasica de cumpleaños generada con codigo,
+asi que no necesitas nada aqui: la musica funciona desde el primer momento
+con el boton "Reproducir musica" de la esquina superior derecha.
+
+SI QUIERES CAMBIAR LA MUSICA POR UNA CANCION REAL:
+
+1. Busca un archivo .mp3 de la cancion que le guste a mami.
+2. Renombralo exactamente como:  cancion.mp3
+3. Copialo dentro de esta carpeta (musica/).
+
+Listo. La pagina detectara el archivo y lo reproducira en bucle en lugar
+de la melodia clasica. El boton de silenciar sigue funcionando igual.
+
+NOTA: para el enlace que le vas a enviar, sube la carpeta completa
+(incluyendo esta carpeta musica/) junto con el resto de los archivos.

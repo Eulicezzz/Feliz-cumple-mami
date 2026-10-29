@@ -1,0 +1,45 @@
+LEEME - Regalo de cumpleaños para mami
+======================================
+
+CONTENIDO DE LA CARPETA
+-----------------------
+index.html    -> la pagina (texto principal)
+styles.css    -> los colores y el diseño
+script.js     -> las animaciones, la tarta y la musica
+images/       -> icono de la pagina
+musica/       -> aqui puedes poner un mp3 opcional (ver musica/LEEME.txt)
+
+
+COMO VERLA EN TU COMPUTADORA
+-----------------------------
+Haz doble clic en "index.html" y se abrira en tu navegador.
+Funciona sin internet tambien (salvo las fuentes tipograficas y el confeti,
+que se cargan de internet con la pagina en linea).
+
+
+COMO CAMBIAR LOS TEXTOS
+------------------------
+Abre index.html con el Bloc de notas (o con un editor de codigo) y busca
+las frases que quieras editar. Algunas sugerencias:
+- El mensaje de la carta (dentro de la seccion "carta").
+- Las 6 razones de la seccion "Razones para estar orgulloso de que seas mi mamá".
+- El cierre final.
+Guarda los cambios y recarga la pagina.
+
+
+COMO SUBIRLA GRATIS Y ENVIARLE EL ENLACE A MAMI
+------------------------------------------------
+Opcion A - Netlify (la mas rapida):
+1. Entra a https://app.netlify.com/drop
+2. Arrastra toda la carpeta "feliz cumple mami" a la pagina.
+3. En unos segundos te da un enlace. Copialo y enviaseselo a mami.
+   (Crea una cuenta para que el enlace no caduque).
+
+Opcion B - GitHub Pages (gratis para siempre):
+1. Crea una cuenta en https://github.com
+2. Crea un repositorio nuevo llamado: feliz-cumple-mami
+3. Sube los archivos de la carpeta (arrastrándolos a GitHub).
+4. En Settings -> Pages activa la rama main.
+5. Tu pagina quedara en:  https://TU-USUARIO.github.io/feliz-cumple-mami
+
+Cualquiera de las dos se abre perfecto desde el celular o la laptop de mami.

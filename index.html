@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Cumpleaños, Mami</title>
+  <meta name="description" content="Un regalo especial de cumpleaños hecho con mucho amor.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <button id="boton-musica" class="boton-musica" type="button">Reproducir música</button>
+
+  <!-- ===================== PORTADA ===================== -->
+  <header class="portada">
+    <div class="decoracion" id="decoracion" aria-hidden="true"></div>
+
+    <div class="portada-contenido">
+      <p class="portada-frase">Hoy celebramos a la mejor mamá del mundo</p>
+      <h1 class="portada-titulo">Feliz Cumpleaños, Mami</h1>
+      <p class="portada-subtitulo">Preparé este regalo para ti con mucho cariño</p>
+      <button class="boton" id="abrir-regalo" type="button">Abrir tu regalo</button>
+    </div>
+
+    <svg class="portada-onda" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,64 C240,120 480,0 720,32 C960,64 1200,120 1440,72 L1440,120 L0,120 Z"></path>
+    </svg>
+  </header>
+
+  <!-- ===================== CARTA ===================== -->
+  <section class="seccion seccion-carta" id="seccion-carta">
+    <h2 class="titulo-seccion">Una carta para ti, mami</h2>
+    <p class="indicio">Toca el sobre para abrirlo</p>
+
+    <div class="sobre" id="sobre" role="button" tabindex="0" aria-label="Abrir el sobre de la carta">
+      <div class="fondo"></div>
+      <div class="carta-dentro">
+        <span class="corazon-mini" aria-hidden="true"></span>
+      </div>
+      <div class="tapa"></div>
+      <div class="bolsillo"></div>
+    </div>
+
+    <article class="carta" id="carta">
+      <p class="carta-saludo">Querida mami:</p>
+      <p>Hoy es un día muy especial, porque celebramos a la persona más maravillosa que conozco. Quería regalarte algo distinto, algo que hiciera las veces de abrazo cuando no pueda darte uno en persona.</p>
+      <p>Gracias por cada desvelo, por cada comida preparada con cariño, por tus consejos cuando no sé qué hacer y por tu paciencia infinita cuando las cosas se ponen difíciles.</p>
+      <p>Estudiar ingeniería a veces me quita el sueño, pero tú siempre me recuerdas que el esfuerzo vale la pena. Espero que esta pequeña página te saque una sonrisa, porque tú me haces sonreír todos los días.</p>
+      <p>Te quiero muchísimo, mami.</p>
+      <p class="carta-firma">Con todo mi amor, tu hijo.</p>
+    </article>
+  </section>
+
+  <!-- ===================== RAZONES ===================== -->
+  <section class="seccion seccion-razones" id="seccion-razones">
+    <h2 class="titulo-seccion">Razones para estar orgulloso de que seas mi mamá</h2>
+
+    <div class="razones">
+      <article class="razon revelar">
+        <span class="razon-numero">01</span>
+        <p>Por la sonrisa con la que me recibes cada día.</p>
+      </article>
+      <article class="razon revelar">
+        <span class="razon-numero">02</span>
+        <p>Por tu paciencia infinita, incluso cuando la mía se acorta.</p>
+      </article>
+      <article class="razon revelar">
+        <span class="razon-numero">03</span>
+        <p>Por enseñarme a ser buena persona con el ejemplo.</p>
+      </article>
+      <article class="razon revelar">
+        <span class="razon-numero">04</span>
+        <p>Por cuidar de nuestra familia sin esperar nada a cambio.</p>
+      </article>
+      <article class="razon revelar">
+        <span class="razon-numero">05</span>
+        <p>Por creer en mí antes de que yo mismo lo haga.</p>
+      </article>
+      <article class="razon revelar">
+        <span class="razon-numero">06</span>
+        <p>Por hacer de la casa el lugar más bonito del mundo.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===================== TARTA ===================== -->
+  <section class="seccion seccion-tarta" id="seccion-tarta">
+    <h2 class="titulo-seccion">Haz un deseo, mami</h2>
+    <p class="indicio">Toca las velas para apagarlas</p>
+
+    <div class="tarta" id="tarta">
+      <div class="velas" id="velas">
+        <button class="vela" type="button" aria-label="Apagar vela">
+          <span class="llama"></span>
+          <span class="palo"></span>
+        </button>
+        <button class="vela" type="button" aria-label="Apagar vela">
+          <span class="llama"></span>
+          <span class="palo"></span>
+        </button>
+        <button class="vela" type="button" aria-label="Apagar vela">
+          <span class="llama"></span>
+          <span class="palo"></span>
+        </button>
+      </div>
+
+      <div class="capa capa-superior">
+        <span class="glaseado"></span>
+      </div>
+      <div class="capa capa-inferior"></div>
+      <div class="platillo"></div>
+    </div>
+
+    <div class="mensaje-final" id="mensaje-final">
+      <h3>Que se cumplan todos tus deseos, mami</h3>
+      <p>Apagaste las velas, así que ya puedes cerrar los ojos y pedir lo que tu corazón desee. Yo ya pido lo mismo que tú: que estés muy feliz y muy saludable siempre.</p>
+    </div>
+  </section>
+
+  <!-- ===================== CIERRE ===================== -->
+  <footer class="cierre" id="seccion-cierre">
+    <svg class="cierre-corazon" viewBox="0 0 32 29" aria-hidden="true">
+      <path d="M16 29S0 18.7 0 9.4C0 4.2 4.2 0 9.4 0 12.6 0 15.2 1.7 16 3.4 16.8 1.7 19.4 0 22.6 0 27.8 0 32 4.2 32 9.4 32 18.7 16 29 16 29z"></path>
+    </svg>
+    <p class="cierre-mensaje">Con mucho amor, espero que te haya gustado este regalito :b</p>
+    <p class="cierre-firma">Con cariño, tu hijo que se está haciendo ingeniero</p>
+    <p class="cierre-nota">Esta página fue hecha especialmente para ti.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
